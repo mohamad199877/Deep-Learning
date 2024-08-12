@@ -6,7 +6,6 @@ In this project, we worked with a dataset of plant images, where each image is l
 ## Dataset Details
 The dataset used for this project is organized as follows:
 - Image Size: 96x96 pixels
-- Image Size: 96x96 pixels
 - Color Space: RGB (3 channels)
 - File Format: .npz
 - Number of Classes: 2
