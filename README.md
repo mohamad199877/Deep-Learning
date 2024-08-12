@@ -14,7 +14,7 @@ The dataset used for this project is organized as follows:
 ## Dataset Structure
 The dataset is provided as a single .npz file (public_data.npz) located in the training folder. The .npz file contains the following items:
 
--data: A numpy array with shape 5200x96x96x3, containing 5,200 RGB images.
+data: A numpy array with shape 5200x96x96x3, containing 5,200 RGB images.
 -labels: A 1-dimensional numpy array with shape 5200, containing labels with values in {'healthy', 'unhealthy'}.
 
 labels: A 1-dimensional numpy array with shape 5200, containing labels with values in {'healthy', 'unhealthy'}.
