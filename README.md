@@ -5,9 +5,10 @@ The objective of this project is to develop a machine learning model that can cl
 In this project, you'll work with a dataset of plant images, where each image is labeled according to the plant's health condition. The goal is to build a classifier that can distinguish between healthy and unhealthy plants, leveraging deep learning techniques.
 ## Dataset Details
 The dataset used for this project is organized as follows:
-- *Image Size: 96x96 pixels
+- Image Size: 96x96 pixels
 - Image Size: 96x96 pixels
 - Color Space: RGB (3 channels)
 - File Format: .npz
 - Number of Classes: 2
+- -Class Labels:
 
