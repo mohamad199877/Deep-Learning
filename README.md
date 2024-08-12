@@ -10,5 +10,5 @@ The dataset used for this project is organized as follows:
 - Color Space: RGB (3 channels)
 - File Format: .npz
 - Number of Classes: 2
-- &ensp; Class Labels:
+ &ensp; Class Labels:
 
