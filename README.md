@@ -2,7 +2,7 @@
 ## Objective
 The objective of this project is to develop a machine learning model that can classify plant images into two categories based on their health status: Healthy and Unhealthy. This binary classification task is a practical application of concepts learned in the Artificial Neural Networks and Deep Learning course. The project provides an opportunity to implement, train, and evaluate a neural network model capable of accurately predicting the health status of plants from images.
 ## Project Overview
-In this project, you'll work with a dataset of plant images, where each image is labeled according to the plant's health condition. The goal is to build a classifier that can distinguish between healthy and unhealthy plants, leveraging deep learning techniques.
+In this project, we worked with a dataset of plant images, where each image is labeled according to the plant's health condition. The goal is to build a classifier that can distinguish between healthy and unhealthy plants, leveraging deep learning techniques.
 ## Dataset Details
 The dataset used for this project is organized as follows:
 - Image Size: 96x96 pixels
@@ -19,31 +19,6 @@ The dataset is provided as a single .npz file (public_data.npz) located in the t
 -data: A numpy array with shape 5200x96x96x3, containing 5,200 RGB images.
 -labels: A 1-dimensional numpy array with shape 5200, containing labels with values in {'healthy', 'unhealthy'}.
 
-
-Sure! Here’s a well-structured README.md note that starts with the project objective, followed by details about the dataset, suitable for your GitHub repository:
-
-Plant Health Classification
-Objective
-The objective of this project is to develop a machine learning model that can classify plant images into two categories based on their health status: Healthy and Unhealthy. This binary classification task is a practical application of concepts learned in the Artificial Neural Networks and Deep Learning course. The project provides an opportunity to implement, train, and evaluate a neural network model capable of accurately predicting the health status of plants from images.
-
-Project Overview
-In this project, you'll work with a dataset of plant images, where each image is labeled according to the plant's health condition. The goal is to build a classifier that can distinguish between healthy and unhealthy plants, leveraging deep learning techniques.
-
-Dataset Details
-The dataset used for this project is organized as follows:
-
-Image Size: 96x96 pixels
-Color Space: RGB (3 channels)
-File Format: .npz
-Number of Classes: 2
-Class Labels:
-0: Healthy
-1: Unhealthy
-Dataset Structure
-The dataset is provided as a single .npz file (public_data.npz) located in the training folder. The .npz file contains the following items:
-
-data: A numpy array with shape 5100x96x96x3, containing 5,100 RGB images.
-data: A numpy array with shape 5200x96x96x3, containing 5,200 RGB images.
 labels: A 1-dimensional numpy array with shape 5200, containing labels with values in {'healthy', 'unhealthy'}.
 ## Task Overview
 - Data Loading: Load the images and labels from the .npz file.
